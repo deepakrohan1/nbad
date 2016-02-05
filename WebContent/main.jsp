@@ -22,7 +22,7 @@
 </c:if>
 <c:if test="${param.user == 'Hello,Admin' }">
 		<li><a href="home.jsp?user=Hello,Admin">Home</a></li>
-        <li><a href="participate.jsp?user=Hello,Admin">Recommended Questions</a></li>
+        <li><a href="reportques.jsp?user=Hello,Admin">Reported Questions</a></li>
 </c:if>
 </nav>
 <%-- Section tag is used to write description  --%>

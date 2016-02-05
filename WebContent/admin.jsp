@@ -6,7 +6,7 @@
     <ul>
        
         <li><a href="home.jsp?user=Hello,Admin">Home</a></li>
-        <li><a href="participate.jsp?user=Hello,Admin">Reported Questions</a></li>
+        <li><a href="reportques.jsp?user=Hello,Admin">Reported Questions</a></li>
         
     </ul>
 </nav>
