@@ -209,6 +209,9 @@ nav#menu ul li{
     border-bottom: 1px solid black;
     text-align: left;
     padding-left: 1em;
+    /*Added this line*/
+    width: 300px 
+    
 }
 
 nav#menu ul li a {
