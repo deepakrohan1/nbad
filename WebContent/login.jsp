@@ -12,6 +12,7 @@
         <input type="password" name="password" required/><br>
         <label>&nbsp;</label>
         <input type="submit" value="Log in" id="login_button" >
+        <input type="submit" formaction="admin.jsp?user=Hello,Admin" id="login_button" value="Admin">
         <br>
     </form>
     <%-- Code to go to Sign up for a new account  --%>

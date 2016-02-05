@@ -8,11 +8,11 @@
         <li>Participants (<span class="count">3</span>) </li>
         <li>Participation (<span class="count">5</span>) </li>
         <li><br></li>
-        <li><a href="home.jsp?user=Hello,Kim">Home</a></li>
-        <li><a href="participate.jsp?user=Hello,Kim">Participate</a></li>
-        <li><a href="studies.jsp?user=Hello,Kim">My Studies</a></li>
-        <li><a href="recommend.jsp?user=Hello,Kim">Recommend</a></li>
-        <li><a href="contact.jsp?user=Hello,Kim">Contact</a></li>
+        <li><a href="home.jsp?user=Hello, Admin">Home</a></li>
+        <li><a href="participate.jsp?user=Hello, Admin">Participate</a></li>
+        <li><a href="studies.jsp?user=Hello, Admin">My Studies</a></li>
+        <li><a href="recommend.jsp?user=Hello, Admin">Recommend</a></li>
+        <li><a href="contact.jsp?user=Hello, Admin">Contact</a></li>
     </ul>
 </nav>
 

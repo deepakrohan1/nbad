@@ -29,10 +29,15 @@
                         <li><a href="how.jsp">How it Works</a></li>
                         <li><a href="login.jsp">Login</a></li>
                         </c:if>
-                        <c:if test="${param.user != null}">
+                        <c:if test="${param.user == 'Hello,Kim'}">
                         <li><a href="aboutl.jsp?user=Hello,Kim">About Us</a></li>
                         <li><a href="main.jsp?user=Hello,Kim">How it Works</a></li>
                         <li>Hello, Kim</li>
+                        </c:if>
+                        <c:if test="${param.user == 'Hello,Admin'}">
+                        <li><a href="aboutl.jsp?user=Hello,Admin">About Us</a></li>
+                        <li><a href="main.jsp?user=Hello,Admin">How it Works</a></li>
+                        <li>Hello, Admin</li>
                         </c:if>
                 </ul>
 
