@@ -28,6 +28,7 @@
             <th>Image</th>		
             <th>Question</th>
             <th>Action</th>
+            <th>Report</th>
         </tr>
         <tr>
             <%-- First study details --%>
@@ -36,6 +37,8 @@
             <td>I enjoy outdoor activities</td>
             <td><form action="question.jsp?user=Hello,Kim" method="post"><input type="submit" class="participate_button"
                                                                                 value="Participate" /></form></td>
+            <td><form action="confirmrep.jsp?user=Hello,Kim" method="post"><input type="submit" class="participate_button"
+                                                                                value="Report" /></form></td>
 
         </tr>
         <tr> 
@@ -45,18 +48,22 @@
             <td>I use computers on a daily basis</td> 
             <td><form action="question.jsp?user=Hello,Kim" method="post"><input type="submit" class="participate_button"
                                                                                 value="Participate" /></form></td>
+            <td><form action="confirmrep.jsp?user=Hello,Kim" method="post"><input type="submit" class="participate_button"
+                                                                                value="Report" /></form></td>
 
         </tr>
         <tr>
             <td></td>
             <td></td>
             <td></td> 
-            <td></td> 
+             <td></td>
+             <td></td> 
         </tr>
         <tr>
             <td></td>
             <td></td>
             <td></td> 
+            <td></td>
             <td></td> 
         </tr>
     </table>
