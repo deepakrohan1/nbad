@@ -4,6 +4,7 @@
 body {
     min-height: 100%;
     margin:0 auto;
+    width: 100%
 
     clear: both;
 }
@@ -40,7 +41,13 @@ td{
 
 }
 
-td img{
+.erb-image-wrapper img{
+    width:100% !important;
+    height:auto;
+    display:block;
+}
+
+td {
     width : 50px;
     height:50px;
 }
@@ -88,6 +95,7 @@ textarea {
     /* To position the buttons to the same position of the text fields */
     /* same size as the label elements */
     margin-left: 120px;
+    width: 100%;
     background-color: #475D9F;
     color: white;
     border-color: #475D9F;
@@ -259,7 +267,7 @@ nav#menu ul li a {
 #home_page{
     margin:0 auto;
     margin-bottom: 100px;
-    width:1000px;
+    width:100%;
     margin-top: 40px;
 }
 
@@ -267,7 +275,7 @@ nav#menu ul li a {
 
 #login_form{
     margin: 0 auto;
-    width : 500px;
+    width : 100%;
     margin-bottom: 100px;
     margin-top: 100px;
     padding : 1em;
