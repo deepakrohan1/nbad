@@ -5,6 +5,8 @@
 --%>
 <%-- Include tag is used to import header page --%>
 <%@ include file="header.jsp" %>
+<script type="text/javascript" src="js/newstudy.js">
+</script>
 <%-- Code to display Page Name --%>
 <h3 id="page_name">Adding a study</h3>
  <%-- Code to go Back to the Main Page  --%>
@@ -21,17 +23,20 @@
         <label># Participants *</label>
         <input type="text" name="participant_text" required/><br>
         <label># Answers *</label>
-        <select>
-            <option value="one">1</option>
-            <option value="two">2</option>
-            <option value="three">3</option>
+        <select name="answers" id="new_study_answers">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
         </select> <br>
-        <label>Answer 1 *</label>
+        <div id="TextBoxContainer">
+    <!--Textboxes will be added here -->
+		</div>
+       <!--  <label>Answer 1 *</label>
         <input type="text" name="answer1_text" required/><br>
         <label>Answer 2 *</label>  
         <input type="text" name="answer2_text" required/><br>
         <label>Answer 3 *</label>  
-        <input type="text" name="answer3_text" required/><br>
+        <input type="text" name="answer3_text" required/><br> -->
         <br>
         <br>
         <label>Description *</label>  
