@@ -17,7 +17,9 @@
 </nav>
 <%-- Section to display studies and participate in that study--%>
 <section class="participate">
-    <h3><span id="studies">Studies</span></h3>
+   
+     <h3><span id="studies">Studies</span>
+     <span id="studies"><a href="reporth.jsp">Report History</a></span></h3>
     <%-- Display the studies in the table --%>
     <%-- Clicking on Participate button displays Question.jsp page where 
             you can rate the question--%>
