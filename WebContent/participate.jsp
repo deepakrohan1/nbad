@@ -23,7 +23,7 @@
     <%-- Display the studies in the table --%>
     <%-- Clicking on Participate button displays Question.jsp page where 
             you can rate the question--%>
-    <table id="studies_table" >
+    <table id="questions_table" >
         <%--Column Names --%>
         <tr>
             <th>Study Name</th>

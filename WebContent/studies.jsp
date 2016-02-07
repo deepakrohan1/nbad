@@ -16,7 +16,7 @@
 <section id="studies_section">
 
 
-    <table id="my_studies_table" >
+    <table id="questions_table" >
         <tr>
             <th>Study Name</th>
             <th>Requested Participants</th>		
