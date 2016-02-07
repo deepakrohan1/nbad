@@ -12,38 +12,71 @@
 <%-- Code to go back to Main page  --%>
 <a href="main.jsp?user=Hello,Kim" id="back_to_page">&laquo;Back to the Main Page</a>
 <%-- Section to input study details --%>
-<section id="newstudy_form">
-    <form action="studies.jsp?user=Hello,Kim" method="post">
-        <label>Study Name *</label>
-        <input type="text" name="study_name" required /><br>
-        <label>Question Text *</label>
-        <input type="text" name="question_text" required/><br>
+<section>
+    <form class="form-horizontal" action="studies.jsp?user=Hello,Kim" method="post">
+    
+    	<div class="form-group">
+        <label class="col-sm-4 control-label">Study Name *</label>
+        <div class="col-sm-4">
+        <input type="text" class="form-control" name="study_name" required />
+         </div>
+            </div>
+        
+        <div class="form-group">
+        <label class="col-sm-4 control-label">Question Text *</label>
+        <div class="col-sm-4">
+        <input type="text" class="form-control" name="question_text" required/>
+         </div>
+            </div>
+        
+        
         <%-- Img tag is used to import image --%>
-        <label>Image *</label>
-        <img src="images/placeholder.jpg" id="edit_study_image" alt="Edit"/>
-        <button type="button">Browse</button>
-        <br>
-        <br>
-        <label># Participants *</label>  
-        <input type="text" name="participants" required/><br>
-        <label># Answers *</label>
-        <select id="edit_study_answers">
+        <div class="form-group">
+        <label class="col-sm-4 control-label">Image *</label>
+        <div class="col-sm-4">
+        <img src="images/placeholder.jpg" id="edit_study_image" class="img-responsive" alt="Edit"/>
+        <button type="button" class="btn btn-primary">Browse</button>
+         </div>
+            </div>
+        
+        
+        <div class="form-group">
+        <label class="col-sm-4 control-label"># Participants *</label>
+         <div class="col-sm-4"> 
+        <input type="text" class="form-control" name="participants" required/>
+         </div>
+            </div>
+        
+        <div class="form-group">
+        <label class="col-sm-4 control-label"># Answers *</label>
+        <div class="col-sm-4">
+        <select class="form-control" id="edit_study_answers">
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5</option>
-        </select> <br>
+        </select> 
+         </div>
+            </div>
+        
+        
         <div id="TextBoxContainer1">
     <!--Textboxes will be added here -->
 		</div>
-        <!-- <label>Answer 1 *</label>
-        <input type="text" name="answer1_text" required/><br>
-        <label>Answer 2 *</label>  
-        <input type="text" name="answer2_text" required/><br>
-        <label>Answer 3 *</label>  
-        <input type="text" name="answer3_text" required/><br> -->
-        <label>Description *</label>  
-        <textarea name="description" required></textarea><br>
-        <button type="submit"  id="submit_button">Update</button>
+       
+       
+       <div class="form-group">
+        <label class="col-sm-4 control-label">Description *</label>
+         <div class="col-sm-4"> 
+        <textarea name="description" class="form-control" required></textarea>
+         </div>
+            </div>
+        
+        <div class="form-group">
+        <div class="col-sm-offset-5 col-sm-4">
+        <button type="submit"  class="btn btn-primary">Update</button>
+         </div>
+            </div>
+            <br/><br/><br/>
     </form>
 </section>
 <%-- Include tag is used to import footer page --%>

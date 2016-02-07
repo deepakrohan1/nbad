@@ -14,16 +14,16 @@ var i =1;
          var div = $("<div />");
          	
      		div.html(GetDynamicTextBox(""));
-     		alert("This is before: "+answers);
+//     		alert("This is before: "+answers);
      		$("#TextBoxContainer").append(div);
      		answers--;
      		i++;
-     		alert("This is after: "+answers);
+//     		alert("This is after: "+answers);
      }
 	 
 	      $('#new_study_answers').change(function() {
 	    	  	answers = $(this).val();
-	            alert(answers);
+//	            alert(answers);
 	            $("#TextBoxContainer").html("");
 //	            var i =1;
 	            i = 1;
@@ -32,16 +32,16 @@ var i =1;
 		            var div = $("<div />");
 		            	
 	            		div.html(GetDynamicTextBox(""));
-	            		alert("This is before: "+answers);
+//	            		alert("This is before: "+answers);
 	            		$("#TextBoxContainer").append(div);
 	            		answers--;
 	            		i++;
-	            		alert("This is after: "+answers);
+//	            		alert("This is after: "+answers);
 	            }
 	      });
 	});
  
  function GetDynamicTextBox(value) {
-	    return '<label>Answer '+i+' *</label><input name = "DynamicTextBox" type="text" required value = "' + value + '" />'
+	    return '<div class="form-group"><label class="col-sm-4 control-label">Answer '+i+' *</label><div class="col-sm-4"><input name = "DynamicTextBox" class="form-control" type="text" required value = "' + value + '" /></div></div>'
 	}
 

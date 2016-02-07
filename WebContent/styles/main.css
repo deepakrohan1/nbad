@@ -439,10 +439,10 @@ nav#menu ul li a {
 
 
 #edit_study_image{
-    width: 120px;
-    height : 50px;
+    width: 100%;
+    height : auto;
 
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     border : 2px solid black;
     margin: 0px 10px 0px 10px;
 }
