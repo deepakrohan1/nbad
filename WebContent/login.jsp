@@ -27,7 +27,7 @@
     </form>
     <div class="row col-md-4 col-md-offset-4">
     <%-- Code to go to Sign up for a new account  --%>
-    <a href="signup.jsp">Sign up for a new account</a>
+    <a href="signup.jsp" id="sign_up_link">Sign up for a new account</a>
     </div>
 <br/>
 <br/>
