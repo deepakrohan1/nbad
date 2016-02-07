@@ -19,7 +19,7 @@
 <section class="participate">
    
      <h3 class="text-left"><span class="label label-default" >Studies</span>
-     <span class="label label-default"><a href="reporth.jsp">Report History</a></span></h3>
+     <span ><a class="label label-default" href="reporth.jsp">Report History</a></span></h3>
     <%-- Display the studies in the table --%>
     <%-- Clicking on Participate button displays Question.jsp page where 
             you can rate the question--%>

@@ -37,7 +37,7 @@
 <%-- Code to submit the Rating  --%>
     
          <div class="form-group">
-        <div class="col-sm-offset-5 col-sm-4">
+        <div class="col-sm-offset-3 col-sm-4">
         <button type="submit"  class="btn btn-primary">Submit</button>
          </div>
             </div>
