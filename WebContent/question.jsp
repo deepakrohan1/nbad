@@ -16,23 +16,32 @@
 </nav>
 <%-- Code to Display Question--%>
 <section class="question_section">
-    <h3><span id="studies">Question</span></h3>
+    <h3><span class="label label-default" >Question</span></h3>
     <%-- Img tag to display image--%>
-    <img src="images/small_tree.jpg" id="question_page_image" alt="Tree"/>
+    <img src="images/small_tree.jpg" class="img-responsive" height="250px" width="250px" alt="Tree"/>
 
 <%--Code to rating the Question --%>
-    <div id="question_select"></div><p>I enjoy outdoor activities (3 strongly agree - 5 strongly disagree)</p>
+    <p class="text-left">I enjoy outdoor activities (3 strongly agree - 5 strongly disagree)</p>
 
         <form action="participate.jsp?user=Hello,Kim" method="post">
-        
-            <input type="radio" name="number" value="three" required>3<br>
-            <input type="radio" name="number" value="four">4<br>
-            <input type="radio" name="number" value="five">5  
+        <div class="radio">
+            <input type="radio" name="number" value="three" required>3
+            </div>
+<div class="radio">
+            <input type="radio" name="number" value="four">4
+            </div>
+            <div class="radio">
+            <input type="radio" name="number" value="five">5
+            </div>  
     
 <%-- Code to submit the Rating  --%>
     
-       <div id="question_submit_div">
-            <button type="submit" id="answer_submit">Submit</button>   </div>    
+         <div class="form-group">
+        <div class="col-sm-offset-5 col-sm-4">
+        <button type="submit"  class="btn btn-primary">Submit</button>
+         </div>
+            </div>
+            <br/><br/><br/>   
         </form>
         
     
