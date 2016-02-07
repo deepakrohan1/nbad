@@ -9,7 +9,8 @@
 <br>
 <a href="main.jsp?user=Hello,Kim" id="back_to_page">&laquo;Back to the Main Page</a>
 <br>
-<table id="questions_table" >
+ <div class="table-responsive">
+<table class="table" >
         <%--Column Names --%>
         <tr>
             <th>Report Date</th>
@@ -36,5 +37,6 @@
         
         
     </table>
+    </div>
 <%-- Include tag is used to import footer page --%>
 <%@ include file="footer.jsp" %>
