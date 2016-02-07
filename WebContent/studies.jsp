@@ -30,11 +30,11 @@
             <td>GUI</td>
             <td>10</td>
             <td>3</td>
-            <td><button type="button">Start</button></td>
+            <td><button type="button" class="btn btn-primary">Start</button></td>
             
             <%-- Code to display edit page --%>
             <td><form action="editstudy.jsp?user=Hello,Kim" method="post">
-                    <button type="submit">Edit</button></form></td>
+                    <button type="submit" class="btn btn-primary">Edit</button></form></td>
 
         </tr>
         <%-- Second study details --%>
@@ -42,10 +42,10 @@
             <td>Sec</td>
             <td>5</td>
             <td>5</td>
-            <td><button type="button">Stop</button></td>
+            <td><button type="button" class="btn btn-primary">Stop</button></td>
               <%-- Code to display edit page --%>
             <td><form action="editstudy.jsp?user=Hello,Kim" method="post">
-                    <button type="submit">Edit</button></form></td>
+                    <button type="submit" class="btn btn-primary">Edit</button></form></td>
 
         </tr>
         <tr>

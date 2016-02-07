@@ -15,8 +15,8 @@
 
 <!-- TODO: Add more code to get the table here.
   -->
-  
-  <table id="questions_table" >
+  <div class="table-responsive">
+  <table class="table" >
         <%--Column Names --%>
         <tr>
             <th>Question</th>
@@ -26,9 +26,9 @@
             <%-- First study details --%>
             <td>I enjoy outdoor activities.</td>
             <td>
-            <form action="" method="post">
-            <input type="submit" class="report_button" formaction="requestc.jsp?user=Hello,Admin&status=Removed"  value="Approve">
-            <input type="submit" class="report_button" formaction="requestc.jsp?user=Hello,Admin&status=Not Removed"  value="Dispprove">
+            <form action="request.jsp" method="post">
+            <input type="submit" class="btn btn-primary" formaction="requestc.jsp?user=Hello,Admin&amp;status=Removed"  value="Approve">
+            <input type="submit" class="btn btn-primary" formaction="requestc.jsp?user=Hello,Admin&amp;status=Not%20Removed"  value="Dispprove">
             </form>
            </td>
             
@@ -44,6 +44,7 @@
 
         </tr>
         </table>
+        </div>
   
   
 <%-- Include tag is used to import footer page --%>

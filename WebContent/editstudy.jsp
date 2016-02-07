@@ -35,7 +35,7 @@
         <div class="form-group">
         <label class="col-sm-4 control-label">Image *</label>
         <div class="col-sm-4">
-        <img src="images/placeholder.jpg" class="img-responsive" height="50px" width="75px" alt="Edit"/>
+        <img src="images/placeholder.jpg" class="img-responsive" height="50" width="75" alt="Edit"/>
         <button type="button" class="btn btn-primary">Browse</button>
          </div>
             </div>

@@ -24,7 +24,7 @@
 <section class="question_section">
     <h3><span class="label label-default" >Question</span></h3>
     <%-- Img tag to display image--%>
-    <img src="images/small_tree.jpg" class="img-responsive" height="250px" width="250px" alt="Tree"/>
+    <img src="images/small_tree.jpg" class="img-responsive" height="250" width="250" alt="Tree"/>
 
 <%--Code to rating the Question --%>
     <p class="text-left">I enjoy outdoor activities (3 strongly agree - 5 strongly disagree)</p>
