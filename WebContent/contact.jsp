@@ -10,16 +10,35 @@
 <%-- Code to go back to Main page  --%>
 <a href="main.jsp?user=Hello,Kim" id="back_to_page">&laquo;Back to the Main Page</a>
 <%-- Section to input Contact details and Send Message --%>
-<section id="contact_form">
-    <form action="confirmc.jsp?user=Hello,Kim" method="post">
-        <label>Name *</label>
-        <input type="text" name="study_name" required /><br><br>
-        <label>Email *</label>
-        <input type="email" name="email" required/><br><br>
-        <label>Message *</label>  
-        <textarea name="message" required></textarea><br>
-        <button type="submit"  id="submit_button">Submit</button>
+<br/><br/>
+    <form class="form-horizontal" action="confirmc.jsp?user=Hello,Kim" method="post">
+    
+    	<div class="form-group">
+        <label class="col-sm-4 control-label">Name *</label>
+        <div class="col-sm-4">
+        <input type="text" class="form-control" name="study_name" required />
+        </div>
+            </div>
+        
+        <div class="form-group">
+        <label class="col-sm-4 control-label">Email *</label>
+        <div class="col-sm-4">
+        <input type="email" class="form-control" name="email" required/>
+        </div>
+            </div>
+        
+        <div class="form-group">
+        <label class="col-sm-4 control-label">Message *</label>
+         <div class="col-sm-4"> 
+        <textarea name="message" class="form-control" required></textarea>
+        </div>
+            </div>
+        <div class="form-group">
+        <div class="col-sm-offset-5 col-sm-4">
+        <button type="submit"  class="btn btn-primary">Submit</button>
+        <br/><br/><br/><br/>
+        </div>
+            </div>
     </form>
-</section>
 <%-- Include tag is used to import footer page --%>
 <%@ include file="footer.jsp" %>
