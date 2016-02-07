@@ -1,8 +1,9 @@
-<%-- 
-    Document   : footer
-    Created on : Sep 19, 2015, 6:20:52 PM
-    Author     : Suman
---%>
+<%--
+	Document: aboutl.jsp
+	Created On: Feb 4, 2016
+	Authors: Deepak Rohan, Abhishek
+
+ --%>
 <%-- Section to display description --%>
 <section class="copyright">
     &copy; Researchers Exchange Participations

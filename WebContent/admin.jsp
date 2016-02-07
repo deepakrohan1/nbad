@@ -1,4 +1,9 @@
+<%--
+	Document: aboutl.jsp
+	Created On: Feb 4, 2016
+	Authors: Deepak Rohan, Abhishek
 
+ --%>
 <%@include file="header.jsp" %>
 
 <!-- TODO: Change the menu as per the admin page -->

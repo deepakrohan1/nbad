@@ -1,8 +1,9 @@
-<%-- 
-    Document   : header
-    Created on : Sep 19, 2015, 4:50:37 PM
-    Author     : Suman
---%>
+<%--
+	Document: aboutl.jsp
+	Created On: Feb 4, 2016
+	Authors: Deepak Rohan, Abhishek
+
+ --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" 

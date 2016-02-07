@@ -1,3 +1,9 @@
+<%--
+	Document: aboutl.jsp
+	Created On: Feb 4, 2016
+	Authors: Deepak Rohan, Abhishek
+
+ --%>
 <%-- Include tag is used to import header page --%>
 <%@include file="header.jsp" %>
 <%-- Section tag is used to write description  --%>

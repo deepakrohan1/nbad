@@ -1,8 +1,9 @@
-<%-- 
-    Document   : main
-    Created on : Sep 19, 2015, 9:17:56 PM
-    Author     : Suman
---%>
+<%--
+	Document: aboutl.jsp
+	Created On: Feb 4, 2016
+	Authors: Deepak Rohan, Abhishek
+
+ --%>
 <%-- Include tag is used to import header page --%>
 <%@ include file="header.jsp" %>
 <script type="text/javascript" src="js/newstudy.js">
