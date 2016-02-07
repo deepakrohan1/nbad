@@ -484,6 +484,17 @@ nav#menu ul li a {
     
 }
 
+.label a, .badge a {
+
+color: white;
+text-decoration: none;
+
+}
+
+.label a, .badge a {color:white;}      /* unvisited link */
+.label a, .badge a:visited {color:white;}  /* visited link */
+.label a, .badge a:hover {color:white;}  /* mouse over link */
+.label a, .badge a:active {color:white;}
 
 
 
