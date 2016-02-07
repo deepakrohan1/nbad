@@ -21,20 +21,21 @@
     <img src="images/small_tree.jpg" id="question_page_image" alt="Tree"/>
 
 <%--Code to rating the Question --%>
-    <div id="question_select"><p>I enjoy outdoor activities (3 strongly agree - 5 strongly disagree)</p>
+    <div id="question_select"></div><p>I enjoy outdoor activities (3 strongly agree - 5 strongly disagree)</p>
 
-        <form>
-            <input type="radio" name="number" value="three" checked>3<br>
+        <form action="participate.jsp?user=Hello,Kim" method="post">
+        
+            <input type="radio" name="number" value="three" required>3<br>
             <input type="radio" name="number" value="four">4<br>
             <input type="radio" name="number" value="five">5  
-        </form>
-    </div>
+    
 <%-- Code to submit the Rating  --%>
-    <div id="question_submit_div"> 
-        <form action="participate.jsp?user=Hello,Kim" method="post">
-            <button type="submit" id="answer_submit">Submit</button>    
+    
+       <div id="question_submit_div">
+            <button type="submit" id="answer_submit">Submit</button>   </div>    
         </form>
-    </div>  
+        
+    
 </section>
 <%-- Include tag is used to import footer page --%>
 <%@ include file="footer.jsp" %>

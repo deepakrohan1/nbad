@@ -42,6 +42,6 @@ var i =1;
 	});
  
  function GetDynamicTextBox(value) {
-	    return '<label>Answer '+i+' *</label><input name = "DynamicTextBox" type="text" value = "' + value + '" />'
+	    return '<label>Answer '+i+' *</label><input name = "DynamicTextBox" type="text" required value = "' + value + '" />'
 	}
 
