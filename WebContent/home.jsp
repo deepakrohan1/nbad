@@ -8,10 +8,8 @@
 
 <section id="home_page">
     <%-- Img tag is used to import image --%>
-    <div class="erb-image-wrapper">
    
-    <img src="images/home_image.png" class="ri" alt="Home" />
-    </div>
+    <img src="images/home_image.png" class="img-responsive center-block" alt="Responsive image" />
 </section>
 <%-- Include tag is used to import footer page --%>
 <%@ include file="footer.jsp" %>

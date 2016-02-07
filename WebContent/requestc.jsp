@@ -9,9 +9,9 @@
 <br>
 <a href="admin.jsp?user=Hello,Admin" id="back_to_page">&laquo;Back to the Main Page</a>
 <%-- Section tag is used to display Message Sent   --%>
-<section id="confirmc">
-
-    <h3>Question ${param.status} ..</h3>
-</section>
+<br/>
+<br/>
+<br/>
+    <h3 class="text-center">Question ${param.status} ..</h3>
 <%-- Include tag is used to import footer page --%>
 <%@ include file="footer.jsp" %>
