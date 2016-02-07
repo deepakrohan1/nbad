@@ -1,3 +1,8 @@
+/**
+ *  Document: aboutl.jsp
+ *	Created On: Feb 4, 2016
+ *	Authors: Deepak Rohan
+ */
 //new_study_answers
 //var answers = $("#new_study_answers").val()
 //alert(answers)
