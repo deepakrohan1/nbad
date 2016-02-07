@@ -26,8 +26,8 @@
         </div>
          <div class="form-group">
     	<div class="col-sm-offset-4 col-sm-10">
-        <input type="submit" value="Log in" id="login_button" >
-        <input type="submit" formaction="admin.jsp?user=Hello,Admin" id="login_button" value="Admin">
+        <input type="submit" value="Log in" class="btn btn-primary" >
+        <input type="submit" formaction="admin.jsp?user=Hello,Admin" class="btn btn-primary" value="Admin">
 		</div>
 		</div>
     </form>
